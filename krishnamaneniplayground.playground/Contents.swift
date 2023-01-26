@@ -134,3 +134,100 @@ if inputNumber>0 {
     print("The number  is 0")
 }
 
+var mar = 45
+if mar == 50 {
+    print("The student passed")
+}else{
+    print("the Student managed")
+}
+
+var l = -10
+if l>0 {
+    print("\(l) is positive number")
+}else if (l<0){
+    print("\(l) is negative number")
+    if(l%2==0){
+        print("\(l) is a negative even number")
+    }
+}else {
+    print("the number is 0")
+}
+
+var f = 65
+if(f>=90){
+    print("pro")
+} else if(f>=78 && f<90){
+    print("Gold")
+}else if(f>=65 && f<78){
+    print("VIP")
+}else {
+    print("Default")
+}
+
+var pwd : String = "Divya@302"
+if(pwd.count>5){
+    if(pwd.contains(" ")){
+        print(" space")
+    }else{
+        print("PWD is strong")
+    }
+}
+else{
+    print("min of 10 characters")
+}
+
+
+var male:Bool=true
+var a = 45
+if male {
+    if a<20 {
+        print("BOY")
+    }else {
+        print("MAN")
+    }
+}else{
+    if a<20{
+        print("Girl")
+      }else{
+          print("Woman")
+      }
+  }
+let alphabet:Character="a"
+switch alphabet {
+case "a","A":
+print("It is alphabet a or A")
+case "b":
+print("It is lower alphabet b")
+case "C":
+print("It is upper case alphabet C")
+default:
+print("None of the cases are executed above")
+}
+
+let isVowel : Character = "e"
+switch isVowel {
+case "a","e","i","o","u":
+    print("lower case vowel")
+case "A","E","I","O","U":
+    print("upeer case vowel")
+default:
+    print("Consonant")
+}
+
+let isHot:Int = -10
+switch isHot {
+case 60...95:
+print("It's really warm. Don't forget to wear sunscreen.")
+case 35...60:
+    print("It's not that cold. Wear a t-shirt.")
+case ..<35:
+    print("It's very cold. Consider wearing a scarf.")
+default:
+print("The temperature is Unbearable")
+}
+
+
+    
+
+    
+
